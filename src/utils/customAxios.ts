@@ -5,7 +5,7 @@ dotenv.config();
 
 const customAxios = axios.create({
     baseURL: process.env.BASE_URL,
-    timeout: process.env.TIMEOUT,
+    timeout: Number(process.env.TIMEOUT),
     headers: {
         Accept: "application/json",
         "x-cg-demo-api-key": process.env.API_KEY

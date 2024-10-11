@@ -1,5 +1,5 @@
 ### Get Statistics 
-GET http://localhost:4000/api/stats?coin=bitcoin
+GET https://koin-x-backend-server.vercel.app/api/stats?coin=bitcoin
 
 ### Get Deviation
 GET https://koin-x-backend-server.vercel.app/api/deviation?coin=bitcoin

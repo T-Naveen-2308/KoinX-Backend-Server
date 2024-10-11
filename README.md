@@ -89,7 +89,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 - Sign up at [CoinGecko](https://coingecko.com) to obtain your API key.
 
 **5. Configure the Environment**
-- Update the `.env` file in your project root directory with the following environment variables.
+- Create the `.env` file in your project root directory with the following environment variables.
 
     ```plaintext
    BASE_URL=your_base_url          # Base URL of coingecko

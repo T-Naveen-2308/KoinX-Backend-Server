@@ -6,6 +6,12 @@ const prisma = new PrismaClient();
 // GET https://localhost:4000/api/stats?coin=
 async function getStatistics(req, res) {
     let { coin } = req.query;
+    if (!["bitcoin", "matic-network", "ethereum"].includes(coin)) {
+        return res.status(400).send({
+            message:
+                "Invalid coin type. Only bitcoin, matic-network and ethereum are allowed."
+        });
+    }
     if (coin === "matic-network") {
         coin = "matic_network";
     }
@@ -24,6 +30,12 @@ async function getStatistics(req, res) {
 // GET https://localhost:4000/api/deviation?coin=
 async function getDeviation(req, res) {
     let { coin } = req.query;
+    if (!["bitcoin", "matic-network", "ethereum"].includes(coin)) {
+        return res.status(400).send({
+            message:
+                "Invalid coin type. Only bitcoin, matic-network and ethereum are allowed."
+        });
+    }
     if (coin === "matic-network") {
         coin = "matic_network";
     }

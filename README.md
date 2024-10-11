@@ -92,11 +92,11 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 - Create the `.env` file in your project root directory with the following environment variables.
 
     ```plaintext
-   BASE_URL=your_base_url          # Base URL of coingecko
-   PORT=your_port                  # Port of your API
-   DATABASE_URL=your_database_url  # Database URL
-   TIMEOUT=your_timeout            # Timeout for API call
-   API_KEY=your_api_key            # API Key of coingecko
+   BASE_URL=https://api.coingecko.com/api/v3/simple  # Base URL of coingecko
+   TIMEOUT=10000                                     # Timeout for API call
+   PORT=4000                                         # Port of your API
+   DATABASE_URL=your_database_url                    # Database URL
+   API_KEY=your_api_key                              # API Key of coingecko
    ```
 
 **6. Start the server:**

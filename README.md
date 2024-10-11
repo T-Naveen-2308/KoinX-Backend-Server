@@ -80,9 +80,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
 **2. Install dependencies:**
 
-    ```
     npm install
-    ```
     
 **3. Set Up the Database:**
 - Create a database in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -103,9 +101,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
 **6. Start the server:**
 
-    ```
     node server.js
-    ```
 
 ## Usage
 The server runs on https://localhost:4000 by default and provides endpoints for retrieving cryptocurrency data. Ensure your database is set up before making requests to the endpoints.

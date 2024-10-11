@@ -80,7 +80,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
 **2. Install dependencies:**
 
-    ```bash
+    ```shell
     npm install
     ```
     
@@ -95,6 +95,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 **5. Configure the Environment**
 
 - Update the `.env` file in your project root directory with the following environment variables.
+
     ```plaintext
    BASE_URL=your_base_url          # Base URL of coingecko
    PORT=your_port                  # Port of your API
@@ -105,7 +106,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
 **6. Start the server:**
 
-    ```bash
+    ```shell
     node server.js
     ```
 

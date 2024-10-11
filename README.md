@@ -82,18 +82,14 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
     ```shell
     npm install
-    ```
     
 **3. Set Up the Database:**
-
 - Create a database in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 **4. Obtain API Key:**
-
 - Sign up at [CoinGecko](https://coingecko.com) to obtain your API key.
 
 **5. Configure the Environment**
-
 - Update the `.env` file in your project root directory with the following environment variables.
 
     ```plaintext
@@ -108,7 +104,6 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
     ```shell
     node server.js
-    ```
 
 ## Usage
 The server runs on https://localhost:4000 by default and provides endpoints for retrieving cryptocurrency data. Ensure your database is set up before making requests to the endpoints.

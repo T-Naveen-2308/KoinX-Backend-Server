@@ -82,7 +82,6 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
     ```bash
     npm install
-
     ```
     
 **3. Set Up the Database:**
@@ -106,7 +105,6 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
     ```bash
     node server.js
-    
     ```
 
 ## Usage

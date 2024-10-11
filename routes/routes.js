@@ -6,4 +6,6 @@ const mainApp = Router();
 
 mainApp.get("/stats", expressAsyncHandler(getStatistics));
 
+mainApp.get("/deviation", expressAsyncHandler(getDeviation));
+
 export default mainApp;

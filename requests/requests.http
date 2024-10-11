@@ -1,0 +1,5 @@
+### Get Statistics 
+GET http://localhost:4000/api/stats?coin=bitcoin
+
+### Get Deviation
+GET http://localhost:4000/api/deviation?coin=bitcoin

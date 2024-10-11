@@ -72,14 +72,17 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 ## Installation
 
 **1. Clone the repository:**
+
    ```bash
    git clone https://github.com/T-Naveen-2308/KoinX-Backend-Server.git
    cd KoinX-Backend-Server
    ```
 
 **2. Install dependencies:**
+
     ```bash
     npm install
+
     ```
     
 **3. Set Up the Database:**
@@ -90,6 +93,7 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 
 **5. Configure the Environment**
 - Update the `.env` file in your project root directory with the following environment variables.
+
     ```plaintext
    BASE_URL=your_base_url          # Base URL of coingecko
    PORT=your_port                  # Port of your API
@@ -99,8 +103,10 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
    ```
 
 **6. Start the server:**
+
     ```bash
     node server.js
+    
     ```
 
 ## Usage

@@ -6,3 +6,23 @@ datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+
+enum CoinType {
+    bitcoin
+    ethereum
+    matic_network
+}
+
+model Coin {
+    id           String   @id @default(auto()) @map("_id") @db.ObjectId
+    coinType     CoinType @default(bitcoin)
+    price        Float
+    marketCap    Float
+    change24Hour Float
+    createdTime  DateTime @default(now())
+
+    @@index([coinType])
+    @@index([createdTime])
+    @@index([coinType, createdTime])
+}
